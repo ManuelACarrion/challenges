@@ -1,6 +1,7 @@
 package com.smallworldfs;
 
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
@@ -10,6 +11,12 @@ public class ChallengeTest {
 
     @Test
     void test_engine_works() {
-        assertNotNull(challenge);
+        assertFalse(challenge.areAnagrams(null, null));
+        assertFalse(challenge.areAnagrams("", ""));
+        assertFalse(challenge.areAnagrams("", "omg"));
+        assertFalse(challenge.areAnagrams("testeando", "testeando"));
+        assertFalse(challenge.areAnagrams("hola", "adios"));
+        assertFalse(challenge.areAnagrams("Aparcamiento", "Metacarpiano"));
+        assertTrue(challenge.areAnagrams("Animal", "Lámina"));
     }
 }
