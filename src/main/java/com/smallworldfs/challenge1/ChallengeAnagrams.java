@@ -1,8 +1,8 @@
-package com.smallworldfs;
+package com.smallworldfs.challenge1;
 
 import org.apache.commons.lang3.StringUtils;
 
-public class Challenge {
+public class ChallengeAnagrams {
     /**
      * Escribe una función que reciba dos String y retorne true o false según sean o no anagramas:
      *  - Un Anagrama consiste en formar una palabra reordenando TODAS las letras de otra palabra inicial.
