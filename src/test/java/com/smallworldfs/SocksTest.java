@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ChallegeSocks {
+public class SocksTest {
     private final Solution solution = new Solution();
 
     @Test

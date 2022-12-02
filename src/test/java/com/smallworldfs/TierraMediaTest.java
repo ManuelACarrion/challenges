@@ -8,7 +8,7 @@ import com.smallworldfs.challenge2.ChallengeTierraMedia;
 import com.smallworldfs.challenge2.SauronArmy;
 import org.junit.jupiter.api.Test;
 
-public class ChallengeTierraMediaTest {
+public class TierraMediaTest {
 
     private final ChallengeTierraMedia challengeTierraMedia = new ChallengeTierraMedia();
 

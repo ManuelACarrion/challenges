@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import com.smallworldfs.challenge1.ChallengeAnagrams;
 import org.junit.jupiter.api.Test;
 
-public class ChallengeAnagramsTest {
+public class AnagramsTest {
 
     private final ChallengeAnagrams challengeAnagrams = new ChallengeAnagrams();
 
